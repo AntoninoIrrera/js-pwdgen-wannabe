@@ -1,0 +1,21 @@
+main{
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    height: 80vh;
+    position: relative;
+}
+
+.position_center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+}
