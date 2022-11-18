@@ -1,24 +1,17 @@
-body{
-    background-color: blueviolet;
+
+header{
+    height: 55px;
 }
 
 main{
+    background-color: blueviolet;
     text-align: center;
     color: white;
     position: relative;
-    height: 80vh;
+    height: 85vh;
 }
 
-.position_center{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-h1{
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -40%);
+footer{
+    background-color: lightgray;
+    height: calc(100vh - (85vh + 55px));
 }
