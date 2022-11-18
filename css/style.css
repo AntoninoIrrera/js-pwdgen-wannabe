@@ -1,9 +1,12 @@
+body{
+    background-color: blueviolet;
+}
+
 main{
     text-align: center;
     color: white;
-    background-color: blueviolet;
-    height: 80vh;
     position: relative;
+    height: 80vh;
 }
 
 .position_center{
